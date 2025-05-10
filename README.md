@@ -1,5 +1,5 @@
 ## Cantinho da Oferta – Sistema de Alertas de Preço
-
+acesso: cantinhodoprecolizandra.netlify.app
 Este projeto é uma aplicação web integrada à plataforma **OdinLine**, que permite aos usuários autenticados:
 
 * Cadastrar alertas de preço para seus produtos
