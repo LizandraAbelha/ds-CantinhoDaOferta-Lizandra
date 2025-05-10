@@ -1,0 +1,100 @@
+body {
+  background-color: #C0C78C;
+  font-family: Arial, sans-serif;
+  padding-top: 70px; 
+}
+
+
+.custom-navbar {
+  background-color: #B99470;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  background-color: #9c7c59; 
+  border-radius: 5px;
+}
+
+
+.form-card {
+  background-color: #FEFAE0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.btn-custom {
+  background-color: #A6B37D;
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #94a365;
+}
+
+
+.alert.position-fixed {
+  z-index: 9999;
+  min-width: 300px;
+  top: 20px;
+  right: 20px;
+}
+
+.table-card {
+  background-color: #FEFAE0;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+  background-color: #A6B37D;
+  color: white;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+footer {
+  background-color: #B99470;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
+
+@media (max-width: 576px) {
+  .form-card, .table-card {
+    padding: 15px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .nav-link {
+    padding: 10px 15px;
+  }
+}
